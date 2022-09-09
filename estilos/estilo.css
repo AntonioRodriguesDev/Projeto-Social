@@ -15,14 +15,25 @@ body{
 main{
     height: 100vh;
     position: relative;
+    
 }
 
 section#telefone{
-    width: 600px;
-    height: 700px;
+    width: 311px;
+    height: 617px;
     position:absolute;
-    margin-left: 50VW;
-    margin-top: 50VH;
+    left: 50%;
+    top: 50%;
+    background-color: blue;
     transform: translate(-50% ,-50%);
     background: url(../imagens/frame-iphone.png) no-repeat center;
+}
+iframe#home{
+    position: relative;
+    height: 472px;
+    width: 270px;
+    top: 75px;
+    left: 20px;
+    background-size: cover;
+
 }
