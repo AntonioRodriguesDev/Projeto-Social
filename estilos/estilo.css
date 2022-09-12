@@ -35,5 +35,20 @@ iframe#home{
     top: 75px;
     left: 20px;
     background-size: cover;
-
+}
+section#social>a>img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.659);
+    box-sizing: border-box;
+}
+section#social>a>img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.659);
+    transition: 0.3s, border 0,5s;
+}
+section#social{
+    text-align: right;
 }
